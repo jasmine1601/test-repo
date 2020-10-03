@@ -1,7 +1,7 @@
 print("Python is awesome!")
 
-# def f(x):
-#     return 2**x
+def f(x):
+    return 2**x
 
 # def f2(x):
 #     sum = 0
@@ -12,4 +12,4 @@ print("Python is awesome!")
 #     return sum
 
 x = int(input("enter a number: "))
-print("f(x) = " + str(2**x))
+print("f(x) = " + str(f(x)))
